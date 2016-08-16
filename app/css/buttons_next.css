@@ -1,0 +1,75 @@
+
+
+/* Common button styles */
+.button-tymp-left {
+	float: left;
+	min-width: 150px;
+	max-width: 250px;
+	display: block;
+	margin: 1em;
+	padding: 1em 2em;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: bold;
+}
+
+.button-tymp-right {
+	float: right;
+	min-width: 150px;
+	max-width: 250px;
+	display: block;
+	margin: 1em;
+	padding: 1em 2em;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: bold;
+}
+.button-tymp-left, .button-tymp-right:focus {
+	outline: none;
+}
+.button-tymp-left, .button-tymp-right > span {
+	vertical-align: middle;
+}
+
+/* Sizes */
+.button--size-s {
+	font-size: 14px;
+}
+
+
+/* Typography and Roundedness */
+.button--text-upper {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.button--text-thick {
+	font-weight: 600;
+}
+
+/* Borders */
+
+
+/* Individual button styles */
+
+.button--aylen.button--inverted {
+	background: none;
+	color: #fff;
+}
+
+.button--aylen.button--inverted:hover {
+	background: #fff;
+	color: #2A3034;
+}

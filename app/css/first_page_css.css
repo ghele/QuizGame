@@ -1,0 +1,90 @@
+body {
+	background-color: #e9eaea;
+}
+
+.title {
+  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #333;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  margin: 100px 0px 220px 0px;
+  text-align: center;
+}
+
+.content {
+	height: 500px;
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.programming_language {
+	float: left;
+	width: 280px;
+	height: 400px;
+	padding-top: 20px;
+} 
+
+.programming_language:first-child {
+	background-color: white;
+	margin: 0px 10px;
+	
+}
+
+.programming_language:nth-child(2) {
+	background-color: white;
+	margin: 0px 10px;
+}
+
+.programming_language:nth-child(3) {
+	background-color: white;
+	margin: 0px 10px;
+}
+
+.programming_language:last-child {
+	background-color: white;
+	margin: 0px 10px;
+}
+
+.devicon-python-plain, .devicon-java-plain, .devicon-go-plain, .devicon-dot-net-plain {
+	font-size: 120px;
+	color: #204056;
+	margin: 0px 80px;
+}
+
+.learn {
+	font-family: sans-serif;
+   	color: #204056;
+   	text-align: center;
+   	font-weight: 300;
+   	margin: 40px 0px;
+}
+
+.description {
+	color: #3e3e40;
+	font-size: 16px;
+    line-height: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px 20px;
+    border-top: 1px solid #e9eaea;
+}
+
+
+
+.programming_language:hover {
+  	background-color: #34B3A0;  	
+
+}
+
+
+.programming_language:hover p {
+  	color: white;  	
+}
+
+.programming_language:hover h3 {
+  	color: white;  	
+}
+
+
+/*.add_class {
+	background-color: red;
+}*/

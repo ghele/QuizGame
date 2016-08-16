@@ -1,0 +1,216 @@
+body {
+    font-family: Open Sans;
+    height: 1000px;
+    background-color: #2A3034;
+}
+
+h1 {
+    text-align: center;
+}
+
+.question {
+    padding: 0 0 0.5em;
+    margin: 0 0 10px 0;
+    color: white;
+    font: 400 120px/0.8 'Cookie', Helvetica, sans-serif;
+    text-align: center;
+}
+
+#title {
+    color: #34B3A0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+
+
+i {
+    font-size: 80px;
+    color: #859098;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+a .button {
+    top:40px;
+    border:4px solid;
+    border-radius:5px;
+    width: 180px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+    text-align: center;
+}
+
+.button {
+    top:40px;
+    border:4px solid;
+    border-radius:5px;
+    width: 40px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+    text-align: center;
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#registration {
+    top:40px;
+    border:4px solid;
+    border-radius:5px;
+    width: 180px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+    text-align: center;
+}
+
+#other_scores {
+    top:40px;
+    border:4px solid;
+    border-radius:5px;
+    width: 180px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+    text-align: center;
+}
+
+#log_out {
+    display: inline-block;important;
+    top:40px;
+    border:4px solid;
+    border-radius:5px;
+    width: 180px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+    text-align: center;
+}
+
+#hide_scores {
+    top:40px;
+    border:4px solid;
+    border-radius:5px;
+    width: 180px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+    text-align: center;
+}
+
+#registration.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+
+#log_out.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+#hide_scores.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+#container {
+    width:100%;
+    height: 100%;
+    background-color: #2A3034;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#question li {
+    border-top: 1px solid #859098;
+    border-bottom: 1px solid #859098;
+}
+
+#question li:first-child {
+    border-top: 2px solid #859098;
+}
+
+#question li:last-child {
+    border-bottom: 2px solid #859098;
+}
+
+#prev {
+    }
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+label {
+    padding-top: 15px;
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-color: #2A3034;
+    line-height: 50px;
+    text-align: center;
+    font-family: calibri;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+label:hover {
+    background-color: #859098;
+}
+
+#questionp {
+    font-size: 40px;
+    text-align: center;
+    font: 400 70px/0.8 'Cookie', Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1)
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0 0 50px;
+    text-align: center;
+  }

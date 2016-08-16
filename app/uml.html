@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<script src='jquery.js'></script>   <!-- link sau descarcatii aceste fisiere -->
+		<script src='coffee.js'></script>
+		<script src='jumly.js'></script>
+</head>
+
+<body>
+	<script type='text/jumly+sequence'>
+@found "User", ->
+  @message "authentication", "Browser", ->
+    @create asynchronous:"connection", "Web Server"
+    @message "GET", "Web Server", ->
+      @message "find the resource in Firebase", -> @reply ""
+    @reply "", "User"
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type='text/css' rel='stylesheet' href='../css/quiz_css.css'/>
+		<link type='text/css' rel='stylesheet' href='../css/normalize.css'/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans"/>
+		<title>Quiz Game</title>
+        <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png"/>
+        <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+
+		<link rel="stylesheet" type="text/css" href="../css/buttons_next.css" />
+
+		<link rel="stylesheet" type="text/css" href="../css/component.css" />
+		<script src="../js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div id='container'>
+			<div id='title'>
+					<i class="devicon-dot-net-plain"></i>
+			</div>
+
+  			<div id='quiz'></div>
+   <!--  		<div class='button' id='next'><a href='#'>Next</a></div>
+
+
+    		<div class='button' id='prev'><a href='#'>Prev</a></div> -->
+
+    		<button class="button-tymp-right button--aylen button--border-thick button--inverted button--text-upper button--size-s" id="next">Next Question</button>
+			<button class="button-tymp-left button--aylen button--border-thick button--inverted button--text-upper button--size-s" id="prev">Prev Question</button>
+
+    		<div class='button' id='start'> <a href='#'>Start Over</a></div>
+    		<a href='first_page_html.html'><div class='button' id='first_page'>Choose Another Test</div></a>
+   		    <div class='button' id='log_out'> <a href='../index.html'>Log out</a></div>
+   		    <button id='hide_scores'>Hide scores</button>
+    		<div class = 'scores'></div>
+
+    		<!-- <button class='' id='next'>Next</a></button>
+    		<button class='' id='prev'>Prev</a></button>
+    		<button class='' id='start'> Start Over</a></button> -->
+
+    		<div class="md-modal md-effect-1" id="modal-1">
+			<div class="md-content">
+				<h3>Register your score</h3>
+				<div>
+                    <p style = "text-align: center">Please enter the correct score, otherwise your progress will not be registered!</p>
+					<form class="score_register">
+    					<p><label for="score">Password</label><input id = 'score' type="text" name='score' placeholder="Score" style = "color: #1D1F21" required></p>
+					</form>
+					<button class="md-close">Register</button>
+					<button class="" id = "see_scores" >See your scores</button>
+				</div>
+			</div>
+		</div>
+
+    		<button class="md-trigger" data-modal="modal-1" id = 'registration'>Register your score</button>
+    		<div class="md-overlay"></div><!-- the overlay element -->
+
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="../js/classie.js"></script>
+		<script src="../js/modalEffects.js"> var window.test_name = 'C#';</script>
+
+		<!-- for the blur effect -->
+		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '/js/';
+		</script>
+		<script src="../js/cssParser.js"></script>
+		<script src="../js/css-filters-polyfill.js"></script>
+    	</div>
+
+
+
+
+
+
+
+
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+		<script type='text/javascript' src='../json/c_questions.js'></script>
+	</body>
+</html>
