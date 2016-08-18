@@ -1,6 +1,6 @@
 # QuizGame
 
-The project is a application implemented that verifies the technical knowledge of a user related to two high-level programmin langugaes (Java and C#) and two scripting languages (Python and Go). At the end of the challenge the user is able to check the number of good and wrong answers. The application is implemented entirely using front end languages: JavaScript (jQuery), CSS and HTML. The user relate data is stored in an online database, called Firebase.
+The project is a application implemented that verifies the technical knowledge of a user related to two high-level programming languages (Java and C#) and two scripting languages (Python and Go). Each programming language has asociated a test, each of them containing ten multiple-choice questions.  At the end of the challenge the user is able to check the number of good and wrong answers. The application is implemented entirely using front end languages: JavaScript (jQuery), CSS and HTML. The user relate data is stored in an online database, called Firebase.
 
 ### Installation
 
@@ -12,7 +12,7 @@ The data related to each user logged in, is saved in Firebase that can be seen i
 <p align="center">
   <img src="https://github.com/ghele/QuizGame/blob/master/images/firebase.PNG" align="middle"></img>
 </p>
-*<p align="center">Figure 1. </p>*
+*<p align="center">Figure 1. Firebase data</p>*
 
 ### Flow
 
@@ -22,32 +22,32 @@ Then, he/she will have to choose one of the four tests as in *Figure 2*:
 <p align="center">
   <img src="https://github.com/ghele/QuizGame/blob/master/images/tests.PNG" align="middle"></img>
 </p>
-*<p align="center">Figure 2. </p>*
+*<p align="center">Figure 2. Quiz tests</p>*
 
 Only one answer is correct, the user must make a choice, *Figure 3*, and can go back to the previous question if he changed his mind:
 
 <p align="center">
   <img src="https://github.com/ghele/QuizGame/blob/master/images/question.PNG" align="middle"></img>
 </p>
-*<p align="center">Figure 3. </p>*
+*<p align="center">Figure 3. Python question</p>*
 
 After he/she finshed the test, the quiz result will be provided to the user as in *Figure 4*, who will submit its score, *Figure 5*. The score obtained by a user is temporarily stored in Local Storage and it is compared with the value typed by him/her in the modal pop up (score registration/submission window), this way its fairness being checked.
 
 <p align="center">
   <img src="https://github.com/ghele/QuizGame/blob/master/images/result.PNG" align="middle"></img>
 </p>
-*<p align="center">Figure 4. </p>*
+*<p align="center">Figure 4. Score obtained at the Python test</p>*
 
 <p align="center">
   <img src="https://github.com/ghele/QuizGame/blob/master/images/registration.PNG" align="middle"></img>
 </p>
-*<p align="center">Figure 5. </p>*
+*<p align="center">Figure 5. Score submission</p>*
 
 The username, submit date/time, test name and score will be stored to Firebase. Then, the user can also choose another test and see its history: the taken tests and its scores, that can be seen in *Figure 6*:
 
 <p align="center">
   <img src="https://github.com/ghele/QuizGame/blob/master/images/history.PNG" align="middle"></img>
 </p>
-*<p align="center">Figure 6. </p>*
+*<p align="center">Figure 6. User activity</p>*
 
 ### Conclusions
