@@ -50,3 +50,4 @@ The username, submit date/time, test name and score will be stored to Firebase. 
 </p>
 *<p align="center">Figure 6. </p>*
 
+### Conclusions
