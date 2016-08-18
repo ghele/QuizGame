@@ -16,7 +16,7 @@ The data related to each user logged in, is saved in Firebase that can be seen i
 
 ### Flow
 
-The user who is trying to take the quizes have firstly to log in to the application using *the calm breeze login screen* inspired from CodePen. 
+The user who is trying to take the quizes have firstly to log in to the application using *the calm breeze login screen* inspired from [CodePen](https://codepen.io/Lewitje/pen/BNNJjo). 
 Then, he/she will have to choose one of the four tests as in *Figure 2*: 
 
 <p align="center">
