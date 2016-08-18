@@ -34,7 +34,7 @@ Only one answer is correct, the user must make a choice, *Figure 3*, and can go 
 After he/she finshed the test, the quiz result will be provided to the user as in *Figure 4*, who will submit its score, *Figure 5*. The score obtained by a user is temporarily stored in Local Storage and it is compared with the value typed by him/her in the modal pop up (score registration/submission window), this way its fairness being checked.
 
 <p align="center">
-  <img src="https://github.com/ghele/QuizGame/blob/master/images/score.PNG" align="middle"></img>
+  <img src="https://github.com/ghele/QuizGame/blob/master/images/result.PNG" align="middle"></img>
 </p>
 *<p align="center">Figure 4. </p>*
 
