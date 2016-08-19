@@ -51,3 +51,9 @@ The username, submit date/time, test name and score will be stored to Firebase. 
 *<p align="center">Figure 6. User activity</p>*
 
 ### Conclusions
+
+By solving these tests a beginner developer/a graduate student looking for an internship or a junior level job can acquire important knowledge. Even if he/she will not answer all questions correctly, the student will be able to search for the unknown questions finding out other IT concepts needed for an interview or for a software development career and he/she will get confortable with the questions asked at an interview. <br/>
+The tests could be also used by a company to check their candidates online before the face-to-face interview, this way the number applications for a vacancy being reduced. <br/>
+The questions can be modified from the 
+
+
